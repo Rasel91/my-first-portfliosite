@@ -1,15 +1,34 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
 }
 .welecome{
-display: flex;
+    /* display: flex; */
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 
+};
+
+h1{
+    font-size: 50px;
+    /* font-weight: 700; */
+}
+
+.width_define {
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .orange{
-    color: rgb(29, 197, 17);
+    color: rgb(229, 157, 23);
 }
-.hire_me{
-   background-image: -o-linear-gradient(tomato red );
+.ancor_button{
+    background: linear-gradient(45deg, lightsalmon, tomato);
    background-color: rgb(165, 89, 42);
    text-decoration: none;
    padding: 10px 30px ;
@@ -17,6 +36,12 @@ display: flex;
    font-weight: 700;
    color: aliceblue;
 }
-img{
+.width_define img{
     width: 100%;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
