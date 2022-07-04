@@ -66,3 +66,7 @@ h1{
     border-image: linear-gradient(blue 100%, cyan 100%);
     border-image-slice: 1;
 }
+footer h3{
+    text-align: center;
+    color: rgb(98, 102, 105);
+}
