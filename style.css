@@ -7,15 +7,14 @@ section{
     padding-bottom: 150px;
 }
 .welcome{
-    display: flex;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 
-};
+}
 
 h1{
     font-size: 50px;
-   
+   font-weight: bold;
 }
 
 .width_define {
@@ -24,9 +23,11 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
 }
+
 .orange{
-    color: rgb(229, 157, 23);
+    color: rgb(228, 151, 8);
 }
+
 .ancor_button{
     background: linear-gradient(45deg, lightsalmon, tomato);
    background-color: rgb(165, 89, 42);
