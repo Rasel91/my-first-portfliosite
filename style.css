@@ -7,7 +7,7 @@ section{
     padding-bottom: 150px;
 }
 .welecome{
-    /* display: flex; */
+    display: flex;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 
@@ -15,7 +15,7 @@ section{
 
 h1{
     font-size: 50px;
-    /* font-weight: 700; */
+   
 }
 
 .width_define {
@@ -43,5 +43,26 @@ h1{
 .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
     background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
 }
